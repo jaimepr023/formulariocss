@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.cajas{
+	background-color: gray;	
+}.caja2{
+	
+	display: grid;
+	
+}
+
+.titulo1{
+	border: solid 0.1rem;
+	border-color: black;
+	box-sizing:content-box;	
+	
+}
+
+.lista1{
+	Display:flex;
+	list-style-type: none;
+}
