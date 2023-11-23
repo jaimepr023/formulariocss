@@ -8,50 +8,151 @@
 	<link href="css.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="fondo">
 
 	<p class="titulo1">Datos personales</p>
 	<fieldset class="cajas">
 		<label class="caja2">
 			<ul class="lista1">
-				<li>
-					<enctype>Nombre</enctype>
-					<input type="required" class="Color">
-					<enctype></enctype>
-				</li>
-				<li>
-					<enctype>Apellidos</enctype>
-					<input type="required" class="Color">
-					<enctype></enctype>
-				</li>
-				<li>
-					<enctype>DNI</enctype>
-					<input type="required" class="Color">
-					<enctype></enctype>
-				</li>
+				<div class="separacion">
+					<li>
+						<enctype>Nombre</enctype>
+						<br>
+						<input type="required" class="Color">
+						<enctype></enctype>
+					</li>
+				</div>
+				<div class="separacion">
+					<li>
+						<enctype>Apellidos</enctype>
+						<br>
+						<input type="required" class="Color">
+						<enctype></enctype>
+					</li>
+				</div>
+				<div class="separacion">
+					<li>
+						<enctype>DNI</enctype>
+						<br>
+						<input type="required" class="Color">
+						<enctype></enctype>
+					</li>
+				</div>
 			</ul>
 			<ul class="lista1">
-				<li>
-					<enctype>Localidad de Nacimiento</enctype>
-					<input type="required" class="Color">
-					<enctype></enctype>
-				</li>
-				<li><select class="Color" name="Provincia">
-						<option value="" disabled selected>Provincias</option>
-						<option vaalue="0">Sevilla</option>
-						<option vaalue="1">Huelva</option>
-						<option vaalue="3">Málaga</option>
-						<option vaalue="4">Jaén</option>
-						<option vaalue="5">Córdoba</option>
-						<option vaalue="6">Cádiz</option>
-						<option vaalue="7">Almería</option>
-						<option vaalue="8">Granada</option>
-					</select></li>
+				<div class="separacion">
+					<li>
+						<enctype>Localidad de Nacimiento</enctype>
+						<br>
+						<input type="required" class="Color">
+						<enctype></enctype>
+					</li>
+				</div>
+				<div class="separacion2">
+					<enctype>Provoncia</enctype>
+					<br>
+					<li><select name="Provincia">
+							<option vaalue="0">Sevilla</option>
+							<option vaalue="1">Huelva</option>
+							<option vaalue="3">Málaga</option>
+							<option vaalue="4">Jaén</option>
+							<option vaalue="5">Córdoba</option>
+							<option vaalue="6">Cádiz</option>
+							<option vaalue="7">Almería</option>
+							<option vaalue="8">Granada</option>
+						</select></li>
+				</div>
+				<div class="separacion">
+					<li>
+						<enctype>Fecha de Nacimiento</enctype>
+						<br>
+						<input type="date" class="Color">
+						<enctype></enctype>
+					</li>
+				</div>
+			</ul>
+			<ul class="lista1">
+				<div class="separacion">
+					<li>
+						<enctype>Direccion</enctype>
+						<br>
+						<input type="required" class="Color">
+						<enctype></enctype>
+					</li>
+				</div>
+				<div class="separacion">
+					<li>
+						<enctype>Codigo Postal</enctype>
+						<br>
+						<input type="required" class="Color">
+						<enctype></enctype>
+					</li>
+				</div>
+			</ul>
+			<ul class="lista1">
+				<div class="separacion">
+					<li>
+
 			</ul>
 		</label>
 	</fieldset>
 
+	<p class="titulo1">Forma de acceso</p>
+	<fieldset class="colorcaja">
+		<label>
+			<input type="radio" class="Color">
+			Directo:
+		</label>
+		<label class="organizar">
+			<input type="radio">
+			Bachillerato (modalidad)
+			<input type="text" class="Color">
+		</label>
+		<label class="organizar">
+			<input type="radio">
+			FP
+		</label>
+		<label class="organizar">
+			<input type="radio">
+			Otros (especifique)
+			<input type="text" class="Color">
+		</label>
+		<label class="organizar">
+			<input type="radio">
+			COU Opción
+			<input type="text" class="Color">
+		</label>
+		<label class="organizar">
+			<input type="radio">
+			Experimental
+			<input type="text" class="Color">
+		</label>
+		<label>
+			<input type="radio">
+			Prueba libre
+		</label>
+	</fieldset>
 
+	<p class="titulo2">Documentos adjuntos</p>
+	<fieldset class="colorcaja1">
+		<label class="organizar1">
+			<input type="checkbox">
+			Fotocopia del DNI
+			<input type="file" class="archivo">
+		</label>
+		<label class="organizar1">
+			<input type="checkbox">
+			Certificado académico
+			<input type="file" class="archivo">
+		</label>
+		<label class="organizar1">
+			<input type="checkbox">
+			Otros documentos
+			<input type="file" class="archivo">
+		</label>
+	</fieldset>
+	
+	<input>
 </body>
 
 </html>
